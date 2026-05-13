@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DATN — Chỉ Đăng ký (22 case DK)" verbose="1">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Đăng ký">
+        <classes>
+            <class name="Register.RegisterDk01To07Test"/>
+            <class name="Register.RegisterDk08To14Test"/>
+            <class name="Register.RegisterDk15To22Test"/>
+        </classes>
+    </test>
+</suite>

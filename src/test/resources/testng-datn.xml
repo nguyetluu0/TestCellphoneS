@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DATN CellphoneS — 69 case / 8 chức năng" verbose="1">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="1. Đăng ký (DK1–DK22)">
+        <classes>
+            <class name="Register.RegisterDk01To07Test"/>
+            <class name="Register.RegisterDk08To14Test"/>
+            <class name="Register.RegisterDk15To22Test"/>
+        </classes>
+    </test>
+    <test name="2. Đăng nhập (DN1–DN12)">
+        <classes>
+            <class name="Login.LoginDn01To06Test"/>
+            <class name="Login.LoginDn07To12Test"/>
+        </classes>
+    </test>
+    <test name="3. Tìm kiếm (TK1–TK5)">
+        <classes>
+            <class name="Search.SearchTk01To05Test"/>
+        </classes>
+    </test>
+    <test name="4. Chi tiết SP (XCT1–XCT6)">
+        <classes>
+            <class name="ProductDetails.ProductDetailXct01To06Test"/>
+        </classes>
+    </test>
+    <test name="5. Thêm giỏ (TSP1–TSP4)">
+        <classes>
+            <class name="Cart.AddToCartTsp01To04Test"/>
+        </classes>
+    </test>
+    <test name="6. Quản lý giỏ (QLGH1–QLGH11)">
+        <classes>
+            <class name="Cart.CartQlgh01To06Test"/>
+            <class name="Cart.CartQlgh07To11Test"/>
+        </classes>
+    </test>
+    <test name="7. Đặt hàng (DH1–DH4)">
+        <classes>
+            <class name="Order.OrderDh01To04Test"/>
+        </classes>
+    </test>
+    <test name="8. Lịch sử đơn (LSDH0–LSDH4)">
+        <classes>
+            <class name="OrderHistory.OrderHistoryLsdh0To4Test"/>
+        </classes>
+    </test>
+</suite>

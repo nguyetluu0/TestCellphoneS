@@ -1,0 +1,20 @@
+# Maven
+target/
+*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Test data
+src/test/resources/datn-test.properties
+
+# Logs & reports
+*.log
+allure-results/
+allure-report/
+
+# OS
+.DS_Store
+Thumbs.db
